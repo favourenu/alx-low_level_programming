@@ -17,14 +17,9 @@ int main(void)
 			putchar(c);
 		}
 
-		if (n == 9)
-		{
-			c = '$';
-			putchar(c);
-		}
-
 		putchar(s);
 		n++;
 	}
+	putchar('\n');
 	return (0);
 }
