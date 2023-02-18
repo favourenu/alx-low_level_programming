@@ -11,10 +11,12 @@ int main(void)
 	while (n <= 9)
 	{
 		putchar(48 + n);
+		n++;
 	}
 	while (c <= 'f')
 	{
 		putchar(c);
+		c++;
 	}
 	putchar('\n');
 	return (0);
