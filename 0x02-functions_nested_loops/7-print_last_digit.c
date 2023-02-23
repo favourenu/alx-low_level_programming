@@ -1,17 +1,19 @@
 #include "main.h"
 /**
  * print_last_digit - Prints the last digit of a given number in betty style.
- * @num: The number whose last digit is to be printed.
+ * @n: The number whose last digit is to be printed.
  * Return: The value of the last digit.
  */
-int print_last_digit(int num)
+int print_last_digit(int n)
 {
-	int last_digit;
+		int a;
 
-	if (num < 0) /* Handle negative numbers */
-		num = -num;
-	last_digit = num % 10;
-	_putchar(last_digit + '0'); /* Print the last digit */
-	_putchar('\n'); /* Print a newline character */
-	return (last_digit);
+		if (n < 0)
+			n = -n;
+		a = n % 10;
+		if (a < 0)
+			a = -a;
+		_putchar(a + '0');
+		return (a);
+
 }
