@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * rev_string - reverse a string.
  * @s: the parameter
@@ -19,4 +19,3 @@ void rev_string(char *s)
 		s[counter] = rev;
 	}
 }
-
