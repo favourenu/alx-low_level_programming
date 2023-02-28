@@ -2,9 +2,9 @@
 /**
  * reset_to_98 - only take the pointer
  * @n: inpust
- * Return: 0
+ * Return: n
  */
-void reset_to _98(int *n)
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
