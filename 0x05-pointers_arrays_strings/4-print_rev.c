@@ -5,5 +5,9 @@
  */
 void print_rev(char *s)
 {
-	printf("%s\n",strrev(s));
+	char *rev_s = strdup(s);  // make a copy of the string
+
+	strrev(rev_s);  // reverse the copy using strrev
+       	printf("%s\n", rev_s);  // print the reversed copy
+       	free(rev_s);
 }	
