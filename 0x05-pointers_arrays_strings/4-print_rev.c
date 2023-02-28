@@ -5,9 +5,20 @@
  */
 void print_rev(char *s)
 {
-	char *rev_s = strdup(s);  // make a copy of the string
+	int longi = 0;
+	int o;
 
-	strrev(rev_s);  // reverse the copy using strrev
-       	printf("%s\n", rev_s);  // print the reversed copy
-       	free(rev_s);
+	while (*s != '\0')
+	{
+		longi++;
+		s++;
+	}
+	s--;
+	for (o = longi; o > 0; o--)
+	{
+		_putchar(*s);
+		s--;
+	}
+
+	_putchar('\n');
 }	
