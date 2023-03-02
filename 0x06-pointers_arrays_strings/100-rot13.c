@@ -18,7 +18,7 @@ char *rot13(char *s)
 			if (s[e] == data1[f])
 			{
 				s[e] = datarot[f];
-				breat;
+				break;
 			}
 		}
 	}
