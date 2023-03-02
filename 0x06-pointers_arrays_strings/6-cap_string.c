@@ -4,7 +4,7 @@
  * @n: parameter
  * Return: n
  */
-char *cap_string(char *n)
+char *cap_string(char *str)
 {
 	int index = 0;
 
