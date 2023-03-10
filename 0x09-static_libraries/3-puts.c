@@ -1,9 +1,10 @@
 #include "main.h"
 /**
  * _puts - prints string followed by a new line, to standard output
- * @str: the parameter.
+ * @s: the parameter.
  */
-void _puts(char *str)
+void _puts(char *s)
 {
-	printf("%s\n", str);
+	_putchar(s);
+	_putchar('\n');
 }
