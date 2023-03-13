@@ -1,1 +1,1 @@
-ARGC AND ARGV
+argc, argv
